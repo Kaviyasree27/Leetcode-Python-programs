@@ -1,0 +1,15 @@
+x=str(11891)
+for i in x:
+    
+    if i !="9":
+        maxx=x.replace(i,"9")
+print(maxx)
+
+for j in x:
+    
+    if j!="0":
+        minn=x.replace(j,"0")
+print(minn)
+diff=int(maxx)-int(minn)
+print(diff)
+    
